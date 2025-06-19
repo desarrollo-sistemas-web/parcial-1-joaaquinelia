@@ -6,5 +6,6 @@
 // 🧠 Pista: Busca bien en la documentación de PHP porque ya existe... OJO CON LOS ACENTOS. 👀
 
 function convertirAMayusculas($texto) {
-    // Tu código aquí
+    $texto = strtoupper($texto);
+    echo $texto;
 }
